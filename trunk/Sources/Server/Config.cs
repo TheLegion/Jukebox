@@ -43,6 +43,8 @@ namespace Jukebox.Server
         string vkLogin = "antoshalee@gmail.com";
         // VKPassword
         string vkPassword = "kvitunov";
+        // VKId
+        string vkId;
         // initial action points
         int initialActionPoints = 4;
         // user manager update milliseconds
@@ -165,6 +167,18 @@ namespace Jukebox.Server
             set
             {
                 vkPassword = value;
+            }
+        }
+
+        public string VKId
+        {
+            get
+            {
+                return vkId;
+            }
+            set
+            {
+                vkId = value;
             }
         }
 
@@ -307,6 +321,13 @@ namespace Jukebox.Server
                 (config.AppSettings.Settings["vkPassword"].Value != ""))
             {
                 try { VKPassword = config.AppSettings.Settings["vkPassword"].Value; }
+                catch { }
+            }
+            if ((config.AppSettings.Settings["vkId"] != null) &&
+                (config.AppSettings.Settings["vkId"].Value != null) &&
+                (config.AppSettings.Settings["vkId"].Value != ""))
+            {
+                try { VKId = config.AppSettings.Settings["vkId"].Value; }
                 catch { }
             }
             if ((config.AppSettings.Settings["initialActionPoints"] != null) &&

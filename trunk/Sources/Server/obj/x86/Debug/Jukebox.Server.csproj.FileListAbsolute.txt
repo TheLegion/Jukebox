@@ -19,3 +19,12 @@ C:\Jukebox\Jukebox\trunk\Binaries\Jukebox.Server.exe
 C:\Jukebox\Jukebox\trunk\Binaries\Jukebox.Server.pdb
 C:\Jukebox\Jukebox\trunk\Sources\Server\obj\x86\Debug\ResolveAssemblyReference.cache
 C:\Jukebox\Jukebox\trunk\Binaries\Jukebox.Server.exe.config
+C:\git\Jukebox\trunk\Binaries\clientaccesspolicy.xml
+C:\git\Jukebox\trunk\Binaries\Jukebox.Server.exe.config
+C:\git\Jukebox\trunk\Binaries\Jukebox.Server.exe
+C:\git\Jukebox\trunk\Binaries\Jukebox.Server.pdb
+C:\git\Jukebox\trunk\Sources\Server\obj\x86\Debug\Jukebox.Server.csproj.CoreCompileInputs.cache
+C:\git\Jukebox\trunk\Sources\Server\obj\x86\Debug\Jukebox.Server.exe
+C:\git\Jukebox\trunk\Sources\Server\obj\x86\Debug\Jukebox.Server.pdb
+C:\git\Jukebox\trunk\Sources\Server\obj\x86\Debug\Jukebox.Server.csprojAssemblyReference.cache
+C:\git\Jukebox\trunk\Sources\Server\obj\x86\Debug\Jukebox.Server.csproj.CopyComplete
